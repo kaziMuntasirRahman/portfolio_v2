@@ -7,6 +7,13 @@ body {
   color: #FD6E0A;
 }
 
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
 /* -------Nav Related CSS---------- */
 nav {
   display: flex;
@@ -63,7 +70,7 @@ nav a {
   justify-content: space-between;
 }
 
-.banner-content{
+.banner-content {
   max-width: 500px;
 }
 
@@ -71,22 +78,52 @@ nav a {
   width: 500px;
 }
 
-.banner-greeting{
+.banner-greeting {
   color: #474747;
   font-size: 45px;
   margin-bottom: 0;
 }
 
-.banner-title{
+.banner-title {
   font-size: 85px;
   font-weight: 700;
   margin: 5px 0px 10px 0px;
 
 }
 
-.banner-description{
+.banner-description {
   margin-top: 10px;
 }
 
 /* ----------main section start---------- */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /* ---------about section style------- */
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background: #FFF8F3;
+  margin: 130px 0;
+}
+
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+}
+
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info{
+  text-align: center;
+}
+
+.info-title, .info-description{
+  font-size: 20px;
+  margin: 0;
+}
