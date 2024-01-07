@@ -215,3 +215,8 @@ main section{
 .social-links a{
   margin-right: 25px;
 }
+
+textarea{
+  font-family: 'open sans';
+  font-size: 14px;
+}
